@@ -3,7 +3,7 @@
   <!-- Here we create the list to display the data we save in 
         the $app/pts feed -->
 
-  <gm:list id="myList" data="${user}/points" template="pointsTemplate"/>
+  <gm:list id="myList" data="${user}/parks" template="parksTemplate"/>
 
   <!-- Here we create the template that contains edit
         and delete buttons. We also specify a create button to add
@@ -14,7 +14,7 @@
       <tbody repeat="true">
         <tr>
           <td><gm:text ref="atom:title"/></td>
-          <td><gm:textarea ref="atom:content"/></td>
+          <td><gm:textarea ref="atom:summary"/></td>
           <td><gm:number ref="gd:geoPt@lon"/></td>
           <td><gm:number ref="gd:geoPt@lat"/></td>
           <td><gm:editButtons /></td>
