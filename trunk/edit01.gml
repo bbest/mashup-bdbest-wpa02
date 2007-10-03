@@ -1,4 +1,4 @@
-<gm:page title="Edit Park Points" authenticate="false">
+<gm:page title="Edit Park Points" authenticate="true">
 
   <!-- Here we create the list to display the data we save in 
         the $app/pts feed -->
