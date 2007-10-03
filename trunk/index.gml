@@ -2,7 +2,7 @@
 
 Hello
 
-<a href="edit">edit</a>
+<a href="edit01">edit</a>
       
 
 </gm:page>
