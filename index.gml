@@ -2,7 +2,10 @@
 
 Hello
 <br>
-<a href="./edit01.html">edit</a>
+<ul>
+  <li><a href="./edit01.html">edit</a></li>
+  <li><a href="./edit01.html">edit</a></li>
+</ul>
       
 
 </gm:page>
