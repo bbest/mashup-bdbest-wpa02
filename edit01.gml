@@ -3,13 +3,13 @@
   <!-- Here we create the list to display the data we save in 
         the $app/pts feed -->
 
-  <gm:list id="myList" data="${app}/pts" template="ptsTemplate"/>
+  <gm:list id="myList" data="${app}/points" template="pointsTemplate"/>
 
   <!-- Here we create the template that contains edit
         and delete buttons. We also specify a create button to add
         data to the feed. -->
 
-  <gm:template id="ptsTemplate">
+  <gm:template id="pointsTemplate">
     <table>
       <tbody repeat="true">
         <tr>
