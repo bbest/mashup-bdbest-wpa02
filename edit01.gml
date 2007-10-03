@@ -9,7 +9,7 @@
         and delete buttons. We also specify a create button to add
         data to the feed. -->
 
-  <gm:template id="pointsTemplate">
+  <gm:template id="parksTemplate">
     <table>
       <tbody repeat="true">
         <tr>
