@@ -14,9 +14,9 @@
       <tbody repeat="true">
         <tr>
           <td><gm:text ref="atom:title"/></td>
-          <td><gm:textarea ref="atom:description"/></td>
-          <td><gm:number ref="atom:lon"/></td>
-          <td><gm:number ref="atom:lat"/></td>
+          <td><gm:textarea ref="atom:content"/></td>
+          <td><gm:number ref="gd:geoPt@lon"/></td>
+          <td><gm:number ref="gd:geoPt@lat"/></td>
           <td><gm:editButtons /></td>
         </tr>
       </tbody>
