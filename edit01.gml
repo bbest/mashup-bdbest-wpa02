@@ -15,6 +15,8 @@
         <tr>
           <td><gm:text ref="gd:title"/></td>
           <td><gm:textarea ref="gd:description"/></td>
+          <td><gm:number ref="gd:lon"/></td>
+          <td><gm:number ref="gd:lat"/></td>
           <td><gm:editButtons /></td>
         </tr>
       </tbody>
