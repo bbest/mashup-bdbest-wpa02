@@ -13,8 +13,8 @@
     <table>
       <tbody repeat="true">
         <tr>
-          <td><gm:text ref="atom:title"/></td>
-          <td><gm:textarea ref="atom:description"/></td>
+          <td><gm:text ref="gd:title"/></td>
+          <td><gm:textarea ref="gd:description"/></td>
           <td><gm:editButtons /></td>
         </tr>
       </tbody>
